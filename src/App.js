@@ -54,7 +54,7 @@ const WeatherApp = () => {
                             weatherArr.map((item, index) => {
                                 return (
                                     <div key={index}>
-                                        <h1> Temperature {item.temp.day} </h1>
+                                         <h1> Temperature {item.temp.day} <br/> Max Temp: {item.temp.max}  <br/> Min Temp: {item.temp.min} <hr></hr></h1>
                                     </div>
                                 );
                             })
